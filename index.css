@@ -7,8 +7,6 @@
     text-align: center;
 }
 header{
-    display: block;
-    z-index: -2;
     text-align: center;
     background-color:  #1E1F22;
 
@@ -46,7 +44,6 @@ nav a{
 }
 #hamburgueres{
     border: #1E1F22;
-  
     border-radius: 10px;
     
 }
