@@ -60,6 +60,7 @@ h2{
 }
 
     .imagemproduto{
+        margin-top: 8%;
         width: 400px;
     }
     
@@ -104,4 +105,24 @@ button{
 
 p{
     text-align: left;
+}
+#menos{
+    width: 30px;
+    height: 25px;
+padding: 0px;
+background-color:#ffae00;
+
+}
+#mais{
+    width: 30px;
+    height: 25px;
+padding: 0px;
+background-color:#ffae00;
+
+}
+.umm{
+    color: black;
+}
+#precoo{
+    text-align: center;
 }
