@@ -16,23 +16,23 @@
         <a href="#hamburgueres">Hamburgueres</a>
         <a href="#acompanhamentos"> Acompanhamentos</a>
         <a href="#bebidas">Bebidas</a>
-        <a href="#carrinho" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample">Carinho</a>
+        <a href="#carrinho" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample" c>Carinho</a>
        
    </div>
 </nav>
 
     </header>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="carrinho"
+    <div class="offcanvas offcanvas-start bg-secondary" tabindex="-1" id="carrinho"
      aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <h5 class="offcanvas-title d-flex text-center" id="offcanvasExampleLabel">Carrinho de pedidos</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <h2 class="text-dark bg-$indigo">Meu carrinho</h2>
+            <h2 class="text-dark text-warning">Meu carrinho</h2>
                 <!-- cartao horizontal produto hambúrguer -->
                 <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0 bg-black rgba(13, 110, 253, 0.25)">
+                    <div id="corp" class="row g-0 ">
                       <div class="col-md-4 d-flex">
                         <img src="imagens/burger01.png" class="img-fluid rounded-start  " alt="...">
                       </div>
@@ -42,23 +42,158 @@
                           
                           <p class="text-xl-center"><strong id="precoo" class="text-white  text-xl-center">Total: R$22,50</strong></p>
                           <div class="d-flex justify-content-center">
-                            <button id="mais" class="">+</button>
-                          <input type="number" value="1" class="text-dark w-25 h-25 mx-2">
-                          <button id="menos" class="">-</button>
+                            <button id="mais" class="text-dark">+</button>
+                          <input type="number" value="1" class="text-dark h-25 w-25  mx-2">
+                          <button id="menos" class="text-dark">-</button>
                           </div>
                           
                         </div>
                       </div>
                     </div>
-                  </div>
-                <!-- cartao horizontal produto acompanhamentos -->
-                <!-- cartao horizontal produto bebidas -->
+                </div>
+                 <!-- cartao horizontal produto acompanhamentos -->
 
+                 <div class="card mb-3" style="max-width: 540px;">
+                    <div id="corp" class="row g-0">
+                      <div class="col-md-4 d-flex">
+                        <img src="imagens/acomp01.png" class="img-fluid rounded-start  " alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title text-white fs-5">Fritas</h5>
+                          
+                          <p class="text-xl-center"><strong id="precoo" class="text-white  text-xl-center">Total:  R$15,00</strong></p>
+                          <div class="d-flex justify-content-center">
+                            <button id="mais" class="text-dark">+</button>
+                          <input type="number" value="1" class="text-dark w-25 h-25 mx-2">
+                          <button id="menos" class="text-dark">-</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
 
+                 <!-- cartao horizontal produto bebidas -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div id="corp" class="row g-0 ">
+                      <div class="col-md-4 d-flex">
+                        <img src="imagens/bebida01.png" class="img-fluid rounded-start  " alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title text-white fs-5">Coca cola</h5>
+                          
+                          <p class="text-xl-center"><strong id="precoo" class="text-white  text-xl-center">Total: R$5,50</strong></p>
+                          <div class="d-flex justify-content-center">
+                            <button id="mais" class="text-dark">+</button>
+                          <input type="number" value="1" class="text-dark w-25 h-25 mx-2">
+                          <button id="menos" class="text-dark">-</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                           <!-- +3 -->
+
+                           <div class="card mb-3" style="max-width: 540px;">
+                            <div id="corp" class="row g-0">
+                              <div class="col-md-4 d-flex">
+                                <img src="imagens/burger01.png" class="img-fluid rounded-start  " alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title text-white fs-5">Classico Angus Burger</h5>
+                                  
+                                  <p class="text-xl-center"><strong id="precoo" class="text-white  text-xl-center">Total: R$22,50</strong></p>
+                                  <div class="d-flex justify-content-center">
+                                    <button id="mais" class="text-dark">+</button>
+                                  <input type="number" value="1" class="text-dark w-25 h-25 mx-2 text">
+                                  <button id="menos" class="text-dark">-</button>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div id="corp" class="row g-0 ">
+                              <div class="col-md-4 d-flex">
+                                <img src="imagens/burger01.png" class="img-fluid rounded-start  " alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title text-white fs-5">Classico Angus Burger</h5>
+                                  
+                                  <p class="text-xl-center"><strong id="precoo" class="text-white  text-xl-center">Total: R$22,50</strong></p>
+                                  <div class="d-flex justify-content-center">
+                                    <button id="mais" class="">+</button>
+                                  <input type="number" value="1" class="text-dark w-25 h-25 mx-2">
+                                  <button id="menos" class="">-</button>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div id="corp" class="row g-0 ">
+                              <div class="col-md-4 d-flex">
+                                <img src="imagens/burger01.png" class="img-fluid rounded-start  " alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title text-white fs-5">Classico Angus Burger</h5>
+                                  
+                                  <p class="text-xl-center"><strong id="precoo" class="text-white  text-xl-center">Total: R$22,50</strong></p>
+                                  <div class="d-flex justify-content-center">
+                                    <button id="mais" class="">+</button>
+                                  <input type="number" value="1" class="text-dark w-25 h-25 mx-2">
+                                  <button id="menos" class="">-</button>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                                <div>
+                                    <!-- total do carrinho -->
+                                    <h3>Total a Pagar:</h3>
+                                    <!-- botao pagar -->
+                                    <button class="btn btn-warning text-dark">Pagar</button>
+                                </div>
 
         </div>
     </div>
-    
+
+    <section id="publicidade" class="container w-50 h-25">
+        <div id="carouselpublicidade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/closeup-shot-tasty-smash-burgers-french-fries-red-spicy-pepper-white-background (1).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/grilled-beef-burger-with-cheese-tomato-generated-by-ai.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/closeup-shot-tasty-smash-burgers-french-fries-red-spicy-pepper-white-background.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
     
     <main>
 
@@ -75,7 +210,8 @@
                      de carne angus, queijo derretido, alface crocante, tomate fresco e um toque especial
                       do nosso molho secreto. Perfeito para saciar sua fome!
                  </p>
-                 <button>Pedir</button>
+                 <button>Pedir</button> 
+                 <button data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Detalhes</button>
                  
                  </div>
     </div>
@@ -90,6 +226,8 @@
             <p >O nosso Hambúrguer Gourmet, preparado com um suculento hambúrguer de carne nobre, queijo derretido, cebola caramelizada e baccon. Uma escolha irresistível!
              </p>
              <button>Pedir</button>
+             <button data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Detalhes</button>
+
          </div>
     </div>
 
@@ -102,6 +240,8 @@
      <p > Deixe-se envolver pelo sabor defumado do nosso Hambúrguer BBQ, uma deliciosa combinação de hambúrguer de carne suculenta, queijo cheddar derretido, cebola caramelizada e salada verde.
     </p>
       <button>Pedir</button>
+      <button data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Detalhes</button>
+
    </div>
     </div>
  </section>
@@ -116,6 +256,8 @@
      <h3> Fritas - R$15,00</h3>
      <p>Descrição: Nossas batatas fritas são o acompanhamento perfeito para qualquer refeição! Cortadas em palitos e fritas até ficarem douradas e crocantes por fora, e macias por dentro, elas são irresistíveis em cada mordida.</p>
       <button>Pedir</button>
+      <button data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Detalhes</button>
+
         </div>
     </div>
 
@@ -127,6 +269,8 @@
      <h3> Fritas - R$15,00</h3>
      <p>Descrição: Nossas batatas fritas são o acompanhamento perfeito para qualquer refeição! Cortadas em palitos e fritas até ficarem douradas e crocantes por fora, e macias por dentro, elas são irresistíveis em cada mordida.</p>
       <button>Pedir</button>
+      <button data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Detalhes</button>
+
         </div>
     </div>
 
@@ -144,6 +288,8 @@
      <p> Descrição: Refresque-se com a clássica Coca-Cola gelada, uma bebida que encanta paladares há décadas. Com seu sabor único e inconfundível para acompanhar seu hambúrguer ou batatas fritas.
     </p>
       <button>Pedir</button>
+      <button data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Detalhes</button>
+
    </div>
     </div>
 
@@ -155,11 +301,83 @@
      <h3> Sprite  - <strong>R$6,50</strong></h3>
      <p> Revitalize seus sentidos com a refrescante Sprite, uma bebida cítrica e efervescente que desperta os sentidos e eleva o seu ânimo para acompanhar seu hambúrguer ou batatas fritas.</p>
       <button>Pedir</button>
+     <button data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Detalhes</button>
+
    </div>
     </div>
 
     </section>
 
+    <!-- MODAL PARA ADICIONAL INGREDIENTES POR FORA -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content bg-white">
+        <div class="modal-header">
+          <h5 class="modal-title text-dark" id="exampleModalLabel">Detalhes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+         
+        </div>
+        <div class="modal-body text-dark bg-white">
+          <div>
+            <h6 class="text-dark">INGREDIENTES</h6>
+        
+            <!-- Exemplo de um ingrediente -->
+            <div class="row align-items-center mb-3 border">
+                <!-- Coluna 1: Imagem do ingrediente -->
+                <div class="col-2">
+                    <img src="imagens/pao.png" class="img-fluid" alt="Pão bola">
+                </div>
+        
+                <!-- Coluna 2: Nome do ingrediente -->
+                <div class="col-2">
+                    <h6 class="text-dark">Pão bola</h6>
+                </div>
+        
+                <!-- Coluna 3: Adicionais -->
+                  <div class="col">
+                    <div class="input-group">
+                        <button class="btn btn-outline-secondary form-control text-center " type="button" >-</button>
+                        <input type="number" class="form-control text-center" value="0">
+                        <button class="btn btn-outline-secondary form-control text-center" type="button" >+</button>
+                        <button id="but" class="btn btn-danger mx-1" type="button" >Remover</button>
+                    </div>
+                    </div>
+                 </div>
+        
+            <!-- Outros ingredientes aqui -->
+            <div class="row align-items-center mb-3 border">
+                <div class="col-2">
+                    <img src="imagens/cheese.png" class="img-fluid" alt="Queijo">
+                </div>
+                <div class="col-2">
+                    <h6 class="text-dark">Queijo</h6>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <button class=" btn btn-outline-secondary form-control text-center" type="button" >-</button>
+                        <input type="number" class="btn btn-outline-secondary form-control text-center" value="0" >
+                        <button class="btn btn-outline-secondary form-control text-center" type="button">+</button>
+                        <button id="but" class=" btn btn-danger mx-1" type="button">Remover</button>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Botão e preço total -->
+            <div class="row mt-4">
+                <div class="col text-end border bg-info-subtle">
+                    <h5 class="text-dark">Preço Total: R$ <span id="precoTotal" class="text-dark">0</span></h5>
+                </div>
+            </div>
+        </div>
+      
+        <div class="modal-footer bg-white">
+          <button type="button" class="btn btn-info" data-bs-dismiss="modal">fechar</button>
+          <!-- <button type="button" class="btn btn-primary">Save</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
     </main>
     <footer>
 
