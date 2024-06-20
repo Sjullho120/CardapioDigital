@@ -129,3 +129,10 @@ background-color:#ffae00;
 #corp{
     background-image:url(imagens/bg.png) ;
 }
+/* .modal-content{
+    background-color: violet;
+} */
+#bu{
+    margin-bottom: 0%;
+    width: 25%;
+}
